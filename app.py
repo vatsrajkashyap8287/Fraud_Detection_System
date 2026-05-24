@@ -5,6 +5,14 @@ Streamlit multi-page app — Task 6
 Run:  streamlit run app.py
 """
 
+import os
+import subprocess
+import sys
+
+if not os.path.exists("lgbm_model.pkl"):
+    print("Downloading model files from Google Drive...")
+    subprocess.run([sys.executable, "download_models.py"], check=True)
+
 import streamlit as st
 
 st.set_page_config(
