@@ -1,0 +1,19 @@
+@"
+# Large model files
+*.pkl
+test_results.csv
+train_transaction.csv
+train_identity.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
