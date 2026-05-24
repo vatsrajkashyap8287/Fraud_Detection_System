@@ -87,17 +87,7 @@ Open http://localhost:8501 in your browser.
 
 ---
 
-## Key Results
 
-| Model | ROC-AUC | PR-AUC | F1 |
-|-------|---------|--------|-----|
-| LightGBM (Tuned) | — | — | — |
-| XGBoost | — | — | — |
-| Isolation Forest | — | — | — |
-
-*Fill in after running the notebook.*
-
----
 
 ## Tools & Libraries
 
